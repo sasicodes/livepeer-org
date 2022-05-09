@@ -12,36 +12,10 @@ import Link from "next/link";
 
 const listItems: ListItemProps[] = [
   {
-    icon: <FiCode />,
-    children: (
-      <>
-        Read the{" "}
-        <A
-          href="https://github.com/livepeer/livepeerjs/blob/master/CONTRIBUTING.md"
-          target="_blank"
-          rel="noopener noreferrer"
-          variant="accent"
-          data-dark>
-          Livepeer.js
-        </A>{" "}
-        contributor guidelines.
-      </>
-    ),
-  },
-  {
     icon: <FiGithub />,
     children: (
       <>
         Look for “good first issues” in{" "}
-        <A
-          href="https://github.com/livepeer/livepeerjs"
-          target="_blank"
-          rel="noopener noreferrer"
-          variant="accent"
-          data-dark>
-          Livepeer.js
-        </A>{" "}
-        (Javascript),{" "}
         <A
           href="https://github.com/livepeer/lpms"
           target="_blank"
